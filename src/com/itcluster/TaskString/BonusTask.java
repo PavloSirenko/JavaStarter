@@ -9,8 +9,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
+import static com.itcluster.TaskString.Main.LIMIT_WORDS;
+
 class BonusTask {
-    private static final int LIMIT_WORDS = 5;
 
     void popWords(String[] arrayWords) throws IOException {
         File outFile = new File("text.out");

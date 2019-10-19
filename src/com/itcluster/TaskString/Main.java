@@ -15,6 +15,7 @@ import java.io.IOException;
         */
 
 public class Main {
+    static final int LIMIT_WORDS = 5;  //for Bonus task
     static final String REGEX_WORDS = "\\s*([\\s*.?!;,])\\s*";
     private static final String REGEX_SENTENCES = "\\s*([?;!.])\\s*";
     private static final String REGEX_DATE = "[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])|[0-9]{3,4}";
