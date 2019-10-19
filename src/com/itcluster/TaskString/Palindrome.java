@@ -8,12 +8,12 @@ import static com.itcluster.TaskString.Main.REGEX_WORDS;
 
 class Palindrome {
 
-    void methodPalindrome(String[] array, int REGEX_SENTENCES) throws IOException {
+    void methodPalindrome(String[] array, int SEVENTEEN) throws IOException {
         File outFile = new File("text.out");
         FileWriter writeFile = new FileWriter(outFile);
 
         CreateArrayRegex arrayObj = new CreateArrayRegex();
-        String[] set = arrayObj.createArrayRegex(array[REGEX_SENTENCES], REGEX_WORDS);
+        String[] set = arrayObj.createArrayRegex(array[SEVENTEEN], REGEX_WORDS);
 
         for (int i = set.length - 1; i > -1; i--) {
             writeFile.write(set[i] + " ");
